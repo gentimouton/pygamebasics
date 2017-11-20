@@ -16,3 +16,7 @@ super simple pygame programs
 - [blit PNG with transparent pixels with opacity](http://www.nerdparadise.com/programming/pygameblitopacity)
 - [joystick fallback to keyboard](http://www.nerdparadise.com/programming/pygamejoystick), may require [muting joystick console output](https://stackoverflow.com/questions/36624000/how-to-hide-sdl-library-debug-messages-in-python)
 - [cheat sheet](http://www.cogsci.rpi.edu/~destem/gamedev/pygame.pdf)
+
+
+# one-liners
+- `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keys
