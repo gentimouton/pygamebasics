@@ -3,6 +3,10 @@ import pickle
 import pygame
 
 
+# 3 ways to process keyboard:
+# 1) for event in pygame.event.get():
+# 2) pressed_keys = pygame.key.get_pressed()
+# 3) ctrl_held = pygame.key.get_mods() & pygame.KMOD_CTRL # for modifiers
 # adapted from http://www.nerdparadise.com/programming/pygame/part1
 # more details: https://wiki.python.org/moin/UsingPickle
 pygame.init()
@@ -23,6 +27,7 @@ except:
 
 clock = pygame.time.Clock()
 while not done:
+    ctrl_held = pygame.key.get_mods() & pygame.KMOD_CTRL
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True
@@ -30,19 +35,19 @@ while not done:
             done = True
         if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
             state.is_blue = not state.is_blue
-        # save state with S key
-        if event.type == pygame.KEYDOWN and event.key == pygame.K_s:
+        # save state with ctrl-s
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_s and ctrl_held:
             try:
                 pickle.dump(state, open(filename, 'wb'))
                 print('Saved state')
             except:
                 print('Error saving state')
     
-    pressed = pygame.key.get_pressed()
-    if pressed[pygame.K_UP] and state.y > 0: state.y -= 3
-    if pressed[pygame.K_DOWN] and state.y < 300 - 60: state.y += 3
-    if pressed[pygame.K_LEFT] and state.x > 0: state.x -= 3
-    if pressed[pygame.K_RIGHT] and state.x < 400 - 60: state.x += 3
+    pressed_keys = pygame.key.get_pressed()
+    if pressed_keys[pygame.K_UP] and state.y > 0: state.y -= 3
+    if pressed_keys[pygame.K_DOWN] and state.y < 300 - 60: state.y += 3
+    if pressed_keys[pygame.K_LEFT] and state.x > 0: state.x -= 3
+    if pressed_keys[pygame.K_RIGHT] and state.x < 400 - 60: state.x += 3
     
     screen.fill((0, 0, 0))
     if state.is_blue: 
