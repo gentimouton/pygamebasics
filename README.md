@@ -1,7 +1,10 @@
 # pygamebasics
 super simple pygame programs
 
-Adding a package on Windows: `python -m pip install numpy`
+# installation
+- [installing python on windows](https://docs.python.org/3/using/windows.html#installation-steps)
+- [installing pygame](https://www.pygame.org/wiki/GettingStarted#Windows%20installation)
+- Adding a package on Windows: `python -m pip install numpy`
 
 
 # easy compatibility between python 2 and 3
