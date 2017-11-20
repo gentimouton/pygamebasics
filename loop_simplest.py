@@ -20,5 +20,5 @@ if __name__ == "__main__":
                 key = event.key
                 if key == K_ESCAPE:
                     game_over = True
-                
+        pygame.display.flip()
         clock.tick(FPS)
