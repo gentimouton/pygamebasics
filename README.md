@@ -11,3 +11,4 @@ Adding a package on Windows: `python -m pip install numpy`
 # links
 - http://www.nerdparadise.com/programming/pygametips bunch of stuff!
 - [joystick fallback to keyboard](http://www.nerdparadise.com/programming/pygamejoystick), may require [muting joystick console output](https://stackoverflow.com/questions/36624000/how-to-hide-sdl-library-debug-messages-in-python)
+- [cheat sheet](http://www.cogsci.rpi.edu/~destem/gamedev/pygame.pdf)
