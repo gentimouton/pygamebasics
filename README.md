@@ -7,7 +7,7 @@ super simple pygame programs
 - Adding a package on Windows: `python -m pip install numpy`
 
 
-# easy compatibility between python 2 and 3
+# coding for both python 2 and 3
 - Use // for integer division, and add 0.0 to ints if you intend for float division.
 - Put parenthesis around all print statements.
 
