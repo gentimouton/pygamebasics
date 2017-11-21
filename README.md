@@ -12,6 +12,8 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - Adding a package on Windows: `python -m pip install numpy`
 - In Eclipse, [fix PyDev "Undefined variable from import" errors?](https://stackoverflow.com/a/30381908) if needed.
 - [Eclipse Neon/Oxygen dark theme](https://marketplace.eclipse.org/content/eclipse-color-theme)
+- installing numpy in python3.6: [download package](https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy), then `pip install package.whl`. Compiling is [harder](https://stackoverflow.com/questions/28413824/installing-numpy-on-windows).
+
 
 # coding for both python 2 and 3
 - Use // for integer division, and add 0.0 to ints if you intend for float division.
