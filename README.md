@@ -10,6 +10,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [installing python on windows](https://docs.python.org/3/using/windows.html#installation-steps)
 - [installing pygame](https://www.pygame.org/wiki/GettingStarted#Windows%20installation)
 - Adding a package on Windows: `python -m pip install numpy`
+- In Eclipse, [fix PyDev "Undefined variable from import" errors?](https://stackoverflow.com/a/30381908) if needed.
 
 
 # coding for both python 2 and 3
@@ -19,7 +20,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 # links
 - http://www.nerdparadise.com/programming/pygametips bunch of stuff!
 - [blit PNG with transparent pixels with opacity](http://www.nerdparadise.com/programming/pygameblitopacity)
-- [joystick fallback to keyboard](http://www.nerdparadise.com/programming/pygamejoystick), may require [muting joystick console output](https://stackoverflow.com/questions/36624000/how-to-hide-sdl-library-debug-messages-in-python)
+- [joystick fallback to keyboard](http://www.nerdparadise.com/programming/pygamejoystick), may require [muting joystick console output](https://stackoverflow.com/questions/36624000/how-to-hide-sdl-library-debug-messages-in-python) (this is fixed in python 3.6 and pygame 1.9.3)
 - [cheat sheet](http://www.cogsci.rpi.edu/~destem/gamedev/pygame.pdf)
 
 
