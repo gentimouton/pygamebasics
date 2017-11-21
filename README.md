@@ -2,6 +2,11 @@
 super simple pygame programs
 
 # installation
+From https://docs.python.org/3/using/windows.html#installation-steps
+1. Download `Windows x86-64 executable installer` from https://www.python.org/downloads/release/python-363/
+1. Run it. Check the `Add python 3.6 to PATH` box, and select `Customize installation`. 
+1. Next screen, in `Customize install location`, specify `C:\python36`.
+
 - [installing python on windows](https://docs.python.org/3/using/windows.html#installation-steps)
 - [installing pygame](https://www.pygame.org/wiki/GettingStarted#Windows%20installation)
 - Adding a package on Windows: `python -m pip install numpy`
