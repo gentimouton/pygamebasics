@@ -11,7 +11,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [installing pygame](https://www.pygame.org/wiki/GettingStarted#Windows%20installation)
 - Adding a package on Windows: `python -m pip install numpy`
 - In Eclipse, [fix PyDev "Undefined variable from import" errors?](https://stackoverflow.com/a/30381908) if needed.
-
+- [Eclipse Neon/Oxygen dark theme](https://marketplace.eclipse.org/content/eclipse-color-theme)
 
 # coding for both python 2 and 3
 - Use // for integer division, and add 0.0 to ints if you intend for float division.
