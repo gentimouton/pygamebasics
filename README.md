@@ -22,6 +22,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [blit PNG with transparent pixels with opacity](http://www.nerdparadise.com/programming/pygameblitopacity)
 - [joystick fallback to keyboard](http://www.nerdparadise.com/programming/pygamejoystick), may require [muting joystick console output](https://stackoverflow.com/questions/36624000/how-to-hide-sdl-library-debug-messages-in-python) (this is fixed in python 3.6 and pygame 1.9.3)
 - [cheat sheet](http://www.cogsci.rpi.edu/~destem/gamedev/pygame.pdf)
+- [tips and tricks](https://github.com/cosmologicon/pyjam/wiki/pygame-notes-and-tricks)
 
 
 # one-liners
