@@ -25,7 +25,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [joystick fallback to keyboard](http://www.nerdparadise.com/programming/pygamejoystick), may require [muting joystick console output](https://stackoverflow.com/questions/36624000/how-to-hide-sdl-library-debug-messages-in-python) (this is fixed in python 3.6 and pygame 1.9.3)
 - [cheat sheet](http://www.cogsci.rpi.edu/~destem/gamedev/pygame.pdf)
 - [tips and tricks](https://github.com/cosmologicon/pyjam/wiki/pygame-notes-and-tricks)
-
+- [playing multiple sounds simultaneously](https://stackoverflow.com/questions/15385727/pygame-mixer-only-plays-one-sound-at-a-time)
 
 # one-liners
 - `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keys
