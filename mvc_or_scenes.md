@@ -3,7 +3,6 @@
 
 
 # Architecture
-----------
 
 High-level architecture of simple games can be seen via 2 dimensions:
 1) Games have multiple modes (menu, world, battle). Solution: state machine.
