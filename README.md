@@ -26,6 +26,8 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [cheat sheet](http://www.cogsci.rpi.edu/~destem/gamedev/pygame.pdf)
 - [tips and tricks](https://github.com/cosmologicon/pyjam/wiki/pygame-notes-and-tricks)
 - [playing multiple sounds simultaneously](https://stackoverflow.com/questions/15385727/pygame-mixer-only-plays-one-sound-at-a-time)
+- [Tileset guide](https://bitbucket.org/thesheep/qq/src/ce58427c58263abdd02a10976ca5514d20c2701b/qq.py)
+
 
 # one-liners
 - `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keys
