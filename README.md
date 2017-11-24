@@ -29,6 +29,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [Tileset guide](https://bitbucket.org/thesheep/qq/src/ce58427c58263abdd02a10976ca5514d20c2701b/qq.py)
 - [unit testing](http://infinitemonkeycorps.net/docs/pph/#id5)
 - [more unit testing](https://docs.python.org/3.6/library/unittest.html#module-unittest)
+- [entity-component framework for games, with example code](https://github.com/cosmologicon/enco)
 
 # one-liners
 - `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keys
