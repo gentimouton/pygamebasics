@@ -30,7 +30,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [unit testing](http://infinitemonkeycorps.net/docs/pph/#id5)
 - [more unit testing](https://docs.python.org/3.6/library/unittest.html#module-unittest)
 - [entity-component framework for games, with example code](https://github.com/cosmologicon/enco)
-- [casino mini games](https://github.com/iminurnamez/pyroller) has a controller that switches scenes via scene name
+- [casino mini games](https://github.com/iminurnamez/pyroller) has a controller that switches scenes, [with unit testing](https://github.com/iminurnamez/pyroller/blob/master/test/testcontrol.py)
 
 # one-liners
 - `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keys
