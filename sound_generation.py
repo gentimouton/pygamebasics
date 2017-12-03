@@ -70,6 +70,7 @@ if __name__ == '__main__':
 # Resources:
 # https://github.com/cosmologicon/pyjam/wiki/pygame-notes-and-tricks#pygamemixer
 # https://github.com/atizo/pygame/blob/master/examples/sound_array_demos.py
+# generating 8-bit sounds (JS) https://github.com/ttencate/jfxr 
 
 # Avoiding memory leaks:
 # don't do `channel = Sound.play()` because it always returns a different one.
