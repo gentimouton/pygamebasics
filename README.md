@@ -32,6 +32,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [entity-component framework for games, with example code](https://github.com/cosmologicon/enco)
 - [casino mini games](https://github.com/iminurnamez/pyroller) has a controller that switches scenes, [with unit testing](https://github.com/iminurnamez/pyroller/blob/master/test/testcontrol.py)
 - Check out [this repo](https://github.com/Mekire/pygame-samples) for fancier examples.
+- [This repo](http://pygame.org/pcr/repository.php) has a ton of useful pygame scripts for algorithms, font, gui, and utility.
 
 # one-liners
 - `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keys
