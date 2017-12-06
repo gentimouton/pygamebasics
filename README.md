@@ -19,21 +19,34 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - Use // for integer division, and add 0.0 to ints if you intend for float division.
 - Put parenthesis around all print statements.
 
-# links
+# existing non-trivial games
+- [bomberman](https://github.com/joereynolds/Mr-Figs), with map editor
+- [cabbage and kings](https://github.com/Mekire/cabbages-and-kings)
+- [tuxemon](https://github.com/Tuxemon/Tuxemon)
+- [pyroller](https://github.com/iminurnamez/pyroller): casino mini games. Controller switches scenes, [with unit testing](https://github.com/iminurnamez/pyroller/blob/master/test/testcontrol.py)
+- [bunch of pyweek entries](https://github.com/cosmologicon/pyjam)
+
+# tips
 - http://www.nerdparadise.com/programming/pygametips bunch of stuff!
-- [blit PNG with transparent pixels with opacity](http://www.nerdparadise.com/programming/pygameblitopacity)
-- [joystick fallback to keyboard](http://www.nerdparadise.com/programming/pygamejoystick), may require [muting joystick console output](https://stackoverflow.com/questions/36624000/how-to-hide-sdl-library-debug-messages-in-python) (this is fixed in python 3.6 and pygame 1.9.3)
 - [cheat sheet](http://www.cogsci.rpi.edu/~destem/gamedev/pygame.pdf)
 - [tips and tricks](https://github.com/cosmologicon/pyjam/wiki/pygame-notes-and-tricks)
-- [playing multiple sounds simultaneously](https://stackoverflow.com/questions/15385727/pygame-mixer-only-plays-one-sound-at-a-time)
-- [Tileset guide](https://bitbucket.org/thesheep/qq/src/ce58427c58263abdd02a10976ca5514d20c2701b/qq.py)
-- [unit testing](http://infinitemonkeycorps.net/docs/pph/#id5)
-- [more unit testing](https://docs.python.org/3.6/library/unittest.html#module-unittest)
-- [entity-component framework for games, with example code](https://github.com/cosmologicon/enco)
-- [casino mini games](https://github.com/iminurnamez/pyroller) has a controller that switches scenes, [with unit testing](https://github.com/iminurnamez/pyroller/blob/master/test/testcontrol.py)
-- Check out [this repo](https://github.com/Mekire/pygame-samples) for fancier examples.
-- [This repo](http://pygame.org/pcr/repository.php) has a ton of useful pygame scripts for algorithms, font, gui, and utility.
 - [newbie guide to pygame](http://pygame.org/docs/tut/newbieguide.html)
+- `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keyboard keys
 
-# one-liners
-- `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keys
+# demo scripts
+- [gfx surfarray hacks, and some font, gui, and utility scripts](http://pygame.org/pcr/repository.php).
+- [mekire's samples](https://github.com/Mekire/pygame-samples)
+- [blit PNG with transparent pixels with opacity](http://www.nerdparadise.com/programming/pygameblitopacity)
+- [playing multiple sounds simultaneously](https://stackoverflow.com/questions/15385727/pygame-mixer-only-plays-one-sound-at-a-time)
+- [joystick fallback to keyboard](http://www.nerdparadise.com/programming/pygamejoystick), may require [muting joystick console output](https://stackoverflow.com/questions/36624000/how-to-hide-sdl-library-debug-messages-in-python) (this is fixed in python 3.6 and pygame 1.9.3)
+- [Tileset guide](https://bitbucket.org/thesheep/qq/src/ce58427c58263abdd02a10976ca5514d20c2701b/qq.py)
+- [simple map editor](https://joereynoldsaudio.com/programming/articles/building-a-level-editor)
+- [unit testing](http://infinitemonkeycorps.net/docs/pph/#id5)
+- [singleton allowing for unit testing](http://glyph.twistedmatrix.com/2007/07/functional-functions-and-python.html)
+- [dirty sprite monkey punch](https://github.com/n0nick/dirty_chimp)
+
+# maybe useful libraries
+- [entity-component framework for games, with example code](https://github.com/cosmologicon/enco)
+- [ptext](https://github.com/cosmologicon/pygame-text)
+- [pview](https://github.com/cosmologicon/pygame-view)
+- [better sprite class](https://github.com/n0nick/pygame-sprites)
