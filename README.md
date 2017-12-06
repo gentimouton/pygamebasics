@@ -28,8 +28,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 
 # tips
 - http://www.nerdparadise.com/programming/pygametips bunch of stuff!
-- [cheat sheet](http://www.cogsci.rpi.edu/~destem/gamedev/pygame.pdf)
-- [tips and tricks](https://github.com/cosmologicon/pyjam/wiki/pygame-notes-and-tricks)
+- [surfarray and mixer tips](https://github.com/cosmologicon/pyjam/wiki/pygame-notes-and-tricks)
 - [newbie guide to pygame](http://pygame.org/docs/tut/newbieguide.html)
 - `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keyboard keys
 
