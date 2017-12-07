@@ -15,10 +15,6 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - installing numpy in python3.6: [download package](https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy), then `pip install package.whl`. Compiling is [harder](https://stackoverflow.com/questions/28413824/installing-numpy-on-windows).
 
 
-# coding for both python 2 and 3
-- Use // for integer division, and add 0.0 to ints if you intend for float division.
-- Put parenthesis around all print statements.
-
 # existing non-trivial games
 - [bomberman](https://github.com/joereynolds/Mr-Figs), with map editor
 - [cabbage and kings](https://github.com/Mekire/cabbages-and-kings)
