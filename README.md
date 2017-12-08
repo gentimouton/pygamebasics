@@ -29,6 +29,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - `import pygame; filter(lambda x:'K_' in x, dir(pygame))` lists all keyboard keys
 
 # demo scripts
+- [tutorials](http://www.pygame.org/docs/), surfarray, camera, sprite, tips
 - [gfx surfarray hacks, and some font, gui, and utility scripts](http://pygame.org/pcr/repository.php).
 - [mekire's samples](https://github.com/Mekire/pygame-samples)
 - [blit PNG with transparent pixels with opacity](http://www.nerdparadise.com/programming/pygameblitopacity)
