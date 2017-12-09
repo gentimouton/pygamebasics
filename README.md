@@ -46,3 +46,6 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [ptext](https://github.com/cosmologicon/pygame-text)
 - [pview](https://github.com/cosmologicon/pygame-view)
 - [better sprite class](https://github.com/n0nick/pygame-sprites)
+
+# numpy
+- [class about array and ufunc](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)
