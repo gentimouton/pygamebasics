@@ -48,4 +48,5 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [better sprite class](https://github.com/n0nick/pygame-sprites)
 
 # numpy
-- [class about array and ufunc](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)
+- [numeric manual from 2001](http://people.csail.mit.edu/jrennie/python/numeric/numeric-manual.pdf)
+- [advanced class about array and ufunc](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)
