@@ -40,6 +40,8 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [unit testing](http://infinitemonkeycorps.net/docs/pph/#id5)
 - [singleton allowing for unit testing](http://glyph.twistedmatrix.com/2007/07/functional-functions-and-python.html)
 - [dirty sprite monkey punch](https://github.com/n0nick/dirty_chimp)
+- [greyscale image conversion with surfarray](https://stackoverflow.com/a/10693616)
+
 
 # maybe useful libraries
 - [entity-component framework for games, with example code](https://github.com/cosmologicon/enco)
@@ -56,4 +58,3 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [old effbot doc](http://www.effbot.org/imagingbook/pil-index.htm)
 - [img mono conversion](https://stackoverflow.com/a/37497975)
 - [img palette conversion](https://stackoverflow.com/a/12646282)
-- [greyscale conversion](https://stackoverflow.com/a/10693616)
