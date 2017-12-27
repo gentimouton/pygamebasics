@@ -11,7 +11,7 @@ TRANSPARENT_COLOR = (255, 0, 255)  # magenta is rendered as transparent
 _image_library = {}
 def get_image(img_path, use_alpha_key=0):
     global _image_library
-    path = string.lower(img_path)
+    path = string.lower(img_path) # img_path.lower() in python3
     cache_key = '#'.join((path,str(use_alpha_key)))
     image = _image_library.get(cache_key)
     if image == None:
