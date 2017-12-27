@@ -58,3 +58,4 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [old effbot doc](http://www.effbot.org/imagingbook/pil-index.htm)
 - [img mono conversion](https://stackoverflow.com/a/37497975)
 - [img palette conversion](https://stackoverflow.com/a/12646282)
+- or consider [skimage](http://scikit-image.org/)
