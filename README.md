@@ -59,3 +59,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [img mono conversion](https://stackoverflow.com/a/37497975)
 - [img palette conversion](https://stackoverflow.com/a/12646282)
 - or consider [skimage](http://scikit-image.org/)
+
+# py2exe
+- [doc/pip](http://www.pygame.org/wiki/Pygame2exe)
+- [with pygame](http://www.pygame.org/wiki/Pygame2exe)
