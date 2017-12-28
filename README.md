@@ -41,6 +41,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [singleton allowing for unit testing](http://glyph.twistedmatrix.com/2007/07/functional-functions-and-python.html)
 - [dirty sprite monkey punch](https://github.com/n0nick/dirty_chimp)
 - [greyscale image conversion with surfarray](https://stackoverflow.com/a/10693616)
+- [masked blit with BLEND_RGBA_MULT](https://stackoverflow.com/a/16930209)
 
 
 # maybe useful libraries
