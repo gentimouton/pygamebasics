@@ -21,6 +21,7 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [tuxemon](https://github.com/Tuxemon/Tuxemon)
 - [pyroller](https://github.com/iminurnamez/pyroller): casino mini games. Controller switches scenes, [with unit testing](https://github.com/iminurnamez/pyroller/blob/master/test/testcontrol.py)
 - [bunch of pyweek entries](https://github.com/cosmologicon/pyjam)
+- [tower defense game with py2exe](https://code.google.com/archive/p/colortowerdefense/downloads)
 
 # tips
 - http://www.nerdparadise.com/programming/pygametips bunch of stuff!
