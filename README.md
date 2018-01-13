@@ -50,6 +50,8 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [ptext](https://github.com/cosmologicon/pygame-text)
 - [pview](https://github.com/cosmologicon/pygame-view)
 - [better sprite class](https://github.com/n0nick/pygame-sprites)
+- [pgu - GUI in pygame](https://code.google.com/archive/p/pgu/)
+
 
 # numpy
 - [numeric manual from 2001](http://people.csail.mit.edu/jrennie/python/numeric/numeric-manual.pdf)
