@@ -70,3 +70,4 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [cx_freeze for python 3.6](https://stackoverflow.com/a/44433442)
 - [making a tarball with distutils](https://wiki.python.org/moin/Distutils/Tutorial)
 - [distutils doc](https://docs.python.org/3/distutils/examples.html) and [examples](https://docs.python.org/3/distutils/examples.html)
+- [pynsist](https://github.com/takluyver/pynsist)
