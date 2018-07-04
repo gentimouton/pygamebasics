@@ -71,3 +71,4 @@ From https://docs.python.org/3/using/windows.html#installation-steps
 - [making a tarball with distutils](https://wiki.python.org/moin/Distutils/Tutorial)
 - [distutils doc](https://docs.python.org/3/distutils/examples.html) and [examples](https://docs.python.org/3/distutils/examples.html)
 - [pynsist](https://github.com/takluyver/pynsist)
+- [cxfreeze](https://www.youtube.com/watch?v=EY6ZCPxqEtM&index=17&list=PLQVvvaa0QuDdLkP8MrOXLe_rKuf6r80KO&t=0s)
