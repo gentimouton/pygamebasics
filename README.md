@@ -2,11 +2,27 @@
 super simple pygame programs. 
 
 # installation
-From https://docs.python.org/3/using/windows.html#installation-steps
-1. Download `Windows x86-64 executable installer` from https://www.python.org/downloads/release/python-363/
-1. Run it. Check the `Add python 3.6 to PATH` box, and select `Customize installation`. 
-1. Next screen, in `Customize install location`, specify `C:\python36`.
 
+install python
+- download Python x86-64 https://www.python.org/downloads/windows/
+- run instal exe as admin
+- check the `Add python 3.6 to PATH` box, and select `Customize installation`
+- `Customize install location` set it to `C:\python36`
+- disable PATH length limit
+- check in CLI that python starts
+- check in CLI that `path` includes `C:\Python36`
+
+install pygame
+- in command line, `pip install -U pygame`
+- don't instal with `--user`, it places the library in `~\AppData\Roaming\Python\Python36`, which is a hidden directory.
+- if you get `TypeError: can only concatenate str`, it's because Pygame has not kept up with Python. Install an older Python.
+- fyi pip installs into `C:\python36\Lib\site-packages`
+- check in CLI `python -m pygame.examples.aliens`
+
+vscode setup
+- access settings via `ctrl+,` and check path to interpreter in `python.pythonPath` is `c:/python36/python.exe`. See [link](https://code.visualstudio.com/docs/python/environments)
+
+more links
 - [installing python on windows](https://docs.python.org/3/using/windows.html#installation-steps)
 - [installing pygame](https://www.pygame.org/wiki/GettingStarted#Windows%20installation)
 - Adding a package on Windows: `python -m pip install numpy`
