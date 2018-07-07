@@ -22,6 +22,13 @@ install pygame
 vscode setup
 - access settings via `ctrl+,` and check path to interpreter in `python.pythonPath` is `c:/python36/python.exe`. See [link](https://code.visualstudio.com/docs/python/environments)
 
+eclipse setup
+- install for java 
+- add pydev and egit (both from Liclipse) via `Help` > `Install new software`: http://update.liclipse.com/latest
+- right click > new project > pydev > configure interpreter
+- check: window > preferences > pydev > interpreters > python - check pygame is in packages below
+
+
 more links
 - [installing python on windows](https://docs.python.org/3/using/windows.html#installation-steps)
 - [installing pygame](https://www.pygame.org/wiki/GettingStarted#Windows%20installation)
