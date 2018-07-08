@@ -29,6 +29,7 @@ eclipse setup
 - right click > new project > pydev > configure interpreter
 - check: window > preferences > pydev > interpreters > python - check pygame is in packages below
 - shortcuts: `Window > Preferences > General > Keys`, switch ctrl-tab from `next editor` to `next tab`, same with `previous tab`
+- general > editor > text editor > show print margin, and insert spaces for tabs
 
 more links
 - [installing python on windows](https://docs.python.org/3/using/windows.html#installation-steps)
