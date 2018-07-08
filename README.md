@@ -18,7 +18,7 @@ install pygame
 - if you get `TypeError: can only concatenate str`, it's because Pygame has not kept up with Python. Install an older Python.
 - fyi pip installs into `C:\python36\Lib\site-packages`
 - check in CLI `python -m pygame.examples.aliens`
-- missing numpy? https://www.anaconda.com/download/
+- missing numpy? https://www.anaconda.com/download/ - don't set their python as default python
 
 vscode setup
 - access settings via `ctrl+,` and check path to interpreter in `python.pythonPath` is `c:/python36/python.exe`. See [link](https://code.visualstudio.com/docs/python/environments)
